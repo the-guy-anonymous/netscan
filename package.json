@@ -1,0 +1,31 @@
+{
+  "name": "netscan",
+  "version": "1.0.0",
+  "description": "Lightweight terminal-based TCP network and port scanner",
+  "main": "scanner.js",
+  "bin": {
+    "netscan": "./scanner.js"
+  },
+  "scripts": {
+    "start": "node scanner.js",
+    "scan": "node scanner.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the-guy-anonymous/netscan.git"
+  },
+  "homepage": "https://github.com/the-guy-anonymous/netscan#readme",
+  "bugs": {
+    "url": "https://github.com/the-guy-anonymous/netscan/issues"
+  },
+  "keywords": [
+    "network-scanner",
+    "port-scanner",
+    "tcp",
+    "nmap-alternative",
+    "security-audit"
+  ],
+  "author": "",
+  "license": "MIT"
+}
+
